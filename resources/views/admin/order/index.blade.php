@@ -2,7 +2,6 @@
 @section('body')
 <div class="main-container container-fluid">
         <!-- start page title -->
-
         <div class="page-header">
             <div>
                 <!-- start page title -->

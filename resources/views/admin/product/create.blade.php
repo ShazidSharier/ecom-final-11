@@ -25,7 +25,7 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header border-bottom d-flex justify-content-between">
-                                <h5 class="card-title mb-0">Basic Product Datatables</h5>
+                                <h5 class="card-title mb-0">Product Add Form </h5>
                                 <a href="{{route('product.index')}}" class="btn btn-primary">All Product</a>
                             </div>
                             <div class="card-body">
@@ -35,7 +35,7 @@
                                     <div class="row mb-4">
                                         <label  class="col-md-3 form-label">Category Name</label>
                                         <div class="col-md-9">
-                                            <select class="form-control" name="category_id">
+                                            <select class="form-control" name="category_id" onchange="getSubCategory(this.value)">
                                                 <option value=""> -- Select Category -- </option>
                                                 @foreach($categories as $category)
                                                     <option value="{{$category->id}}"> {{$category->name}} </option>
@@ -46,7 +46,7 @@
                                     <div class="row mb-4">
                                         <label  class="col-md-3 form-label">SubCategory Name</label>
                                         <div class="col-md-9">
-                                            <select class="form-control" name="sub_category_id">
+                                            <select class="form-control" name="sub_category_id" id="subCategoryId">
                                                 <option value=""> -- Select SubCategory -- </option>
                                                 @foreach($subCategories as $subCategory)
                                                     <option value="{{$subCategory->id}}"> {{$subCategory->name}} </option>

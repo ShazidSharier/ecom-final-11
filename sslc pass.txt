@@ -1,0 +1,28 @@
+SSLCZ_STORE_ID=bitml66be230a42d28
+SSLCZ_STORE_PASSWORD=bitml66be230a42d28@ssl
+SSLCZ_TESTMODE=true // set false when using live store id
+
+
+www.drzratul1.com
+drzratul
+ratul123
+
+
+
+Website	www.drzratul1.com
+Company Name	BITM Laravel Vue
+Company Address	10, Kawranbazar, Dhaka.
+Name	drzratul1
+Email	drzratul@gmail.com
+Phone Number	01941948869
+Username	drzratul
+
+
+laravelvueb11
+Bitm@laravel
+
+User Login Id	laravelvueb11
+User Name	BITM PHP Laravel
+Account Type	merchant
+Email	drzratul1@gmail.com
+Account Role	Merchant Admin

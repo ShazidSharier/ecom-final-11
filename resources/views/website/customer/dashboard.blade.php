@@ -1,6 +1,5 @@
 @extends('website.master')
 @section('body')
-
     <!-- Start of Main -->
     <main class="main login-page">
         <!-- Start of Page Header -->
@@ -10,7 +9,6 @@
             </div>
         </div>
         <!-- End of Page Header -->
-
         <!-- Start of Breadcrumb -->
         <nav class="breadcrumb-nav">
             <div class="container">
@@ -53,7 +51,6 @@
         </div>
     </main>
     <!-- End of Main -->
-
 @endsection
 
 

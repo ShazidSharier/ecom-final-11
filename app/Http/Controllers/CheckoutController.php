@@ -33,6 +33,7 @@ class CheckoutController extends Controller
 
     public function newOrder(Request $request)
     {
+
         if ($request->payment_method == 'Cash')
         {
             $this->order = new Order();

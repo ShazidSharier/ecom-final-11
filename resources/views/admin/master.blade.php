@@ -212,6 +212,28 @@
 
 <!-- App js -->
 <script src="{{ asset('/') }}admin/assets/js/app.js"></script>
+
+<script src="{{ asset('/') }}admin/assets/js/jquery-3.7.1.js"></script>
+<script>
+    function getSubCategory(categoryId) {
+        $.ajax({
+            type: "GET",
+            url: "{{route('get-sub-category-by-category')}}",
+            data: {id: categoryId},
+            DataType: "JSON",
+            success: function (response) {
+                var option = '';
+                option += '<option value=""> -- Select SubCategory -- </option>';
+                $.each(response, function (key, value) {
+                    option += '<option value="'+value.id+'">'+value.name+'</option>';
+                });
+                $('#subCategoryId').empty();
+                $('#subCategoryId').append(option);
+            }
+        });
+    }
+</script>
+
 </body>
 
 </html>

@@ -29,7 +29,7 @@
                             @csrf
                             <ul class="nav nav-tabs text-uppercase" role="tablist">
                                 <li class="nav-item">
-                                    <a href="#sign-in" class="nav-link active">Sign In</a>
+                                    <a href="#sign-in">Sign In</a>
                                     <p class="text-bg-danger">{{ session('message') }}</p>
                                 </li>
                             </ul>

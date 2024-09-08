@@ -41,6 +41,14 @@ class ProductController extends Controller
             ]);
     }
 
+    public function getSubCategory()
+    {
+        $categoryId = $_GET['id'];
+        $subCategories = SubCategory::where('category_id', $categoryId)->get();
+        return response()->json($subCategories);
+    }
+
+
     /**
      * Store a newly created resource in storage.
      */

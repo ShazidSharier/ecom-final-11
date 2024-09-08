@@ -138,8 +138,8 @@
 
     <div class="newsletter-popup mfp-hide">
         <div class="newsletter-content">
-            <h4 class="text-uppercase font-weight-normal ls-25">Get Up to<span class="text-primary">25% Off</span></h4>
-            <h2 class="ls-25">Sign up to Wolmart</h2>
+            <h4 class="text-uppercase font-weight-normal ls-50">Get Up to<span class="text-primary">25% Off</span></h4>
+            <h2 class="ls-50">Sign up to Wolmart</h2>
             <p class="text-light ls-10">Subscribe to the Wolmart market newsletter to
                 receive updates on special offers.</p>
             <form action="#" method="get" class="input-wrapper input-wrapper-inline input-wrapper-round">
@@ -173,11 +173,23 @@
 <script src="{{asset('/')}}website/assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="{{asset('/')}}website/assets/vendor/jquery.countdown/jquery.countdown.min.js"></script>
 <script src="{{asset('/')}}website/assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="{{ asset('/')}}website/assets/js/jquery-3.7.1.js"></script>
 
 <!-- Main Js -->
 <script src="{{asset('/')}}website/assets/js/main.min.js"></script>
+<script>
+    function checkCustomerEmail(email) {
+        $.ajax({
+            type: "GET",
+            url: "{{route('check-customer-email')}}",
+            data: {email: email},
+            DataType: "JSON",
+            success: function (response) {
+                $('#emailError').text(response.message);
+            }
+        });
+    }
+</script>
+
 </body>
-
-
-<!-- Mirrored from portotheme.com/html/wolmart/demo3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Jun 2024 21:01:15 GMT -->
 </html>

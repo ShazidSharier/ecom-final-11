@@ -30,6 +30,7 @@ Route::post('/new-order',[CheckoutController::class,'newOrder'])->name('new-orde
 Route::get('/complete-order',[CheckoutController::class,'completeOrder'])->name('complete-order');
 
 Route::get('/customer/register',[CustomerController::class,'register'])->name('customer.register');
+Route::get('/check-customer-email',[CustomerController::class,'checkCustomerEmail'])->name('check-customer-email');
 Route::post('/customer/register',[CustomerController::class,'saveNewCustomer'])->name('customer.register');
 
 Route::get('/customer/login',[CustomerController::class,'login'])->name('customer.login');
@@ -76,4 +77,5 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
     Route::resource('size', SizeController::class );
     Route::resource('product', ProductController::class );
     Route::resource('courier', CourierController::class );
+    Route::get('/get-sub-category-by-category',[ProductController::class,'getSubCategory'])->name('get-sub-category-by-category');
 });

@@ -41,9 +41,9 @@
                     <span class="delimiter d-lg-show">/</span>
                     <a href="">Hello {{ Session::get('customerName') }}</a>
                 @else
-                    <a href="{{route('customer.login')}}" class="d-lg-show login sign-in"><i class="w-icon-account"></i>Sign In</a>
+                    <a href="{{route('customer.login')}}" class=""><i class="w-icon-account"></i>Sign In</a>
                     <span class="delimiter d-lg-show">/</span>
-                    <a href="{{route('customer.register')}}" class="ml-0 d-lg-show login register">Register</a>
+                    <a href="{{route('customer.register')}}" class="">Register</a>
                 @endif
 
             </div>
@@ -183,10 +183,10 @@
                     <nav class="main-nav">
                         <ul class="menu active-underline">
                             <li class="active">
-                                <a href="demo3.html">Home</a>
+                                <a href="{{route('home')}}">Home</a>
                             </li>
                             <li>
-                                <a href="shop-banner-sidebar.html">Shop</a>
+                                <a href="">Shop</a>
 
                                 <!-- Start of Megamenu -->
                                 <ul class="megamenu">

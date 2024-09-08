@@ -14,12 +14,33 @@ class CustomerController extends Controller
     {
         return view('website.customer.register');
     }
+    public function checkCustomerEmail()
+    {
+        $customer= Customer::where('email', $_GET['email'])->first();
+        if($customer)
+        {
+            return response()->json([
+               'email_status' => 1,
+               'message'      => "Email address already exist",
+            ]);
+        }
+        else {
+            return response()->json([
+                'email_status' => 0,
+                'message'      => "Email address Avaliable",
+            ]);
+        }
+    }
     public function login()
     {
         return view('website.customer.login');
     }
     public function saveNewCustomer(Request $request)
     {
+        $request->validate([
+            'email' => 'required|unique:customers',
+        ]);
+
         $this->customer = Customer::saveCustomer($request);
 
         Session::put('customerId', $this->customer->id);

@@ -1,6 +1,5 @@
 @extends('website.master')
 @section('body')
-
     <!-- Start of Main -->
     <main class="main login-page">
         <!-- Start of Page Header -->
@@ -10,12 +9,11 @@
             </div>
         </div>
         <!-- End of Page Header -->
-
         <!-- Start of Breadcrumb -->
         <nav class="breadcrumb-nav">
             <div class="container">
                 <ul class="breadcrumb">
-                    <li><a href="demo1.html">Home</a></li>
+                    <li><a href="{{route('home')}}">Home</a></li>
                     <li>My account</li>
                 </ul>
             </div>
@@ -27,7 +25,7 @@
                     <div class="tab tab-nav-boxed tab-nav-center tab-nav-underline">
                         <ul class="nav nav-tabs text-uppercase" role="tablist">
                             <li class="nav-item">
-                                <a href="#sign-up" class="nav-link active">Register</a>
+                                <a href="#sign-up">Register</a>
                             </li>
                         </ul>
                         <div class="tab-content">
@@ -40,7 +38,9 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Your email address *</label>
-                                        <input type="email" class="form-control" name="email" id="email_1" required>
+                                        <input type="email" class="form-control" onblur="checkCustomerEmail(this.value)" name="email" id="email_1" required>
+                                        <span class="text-danger" id="emailError">{{$errors->has('email') ? $errors->first('email') : ''}}</span>
+
                                     </div>
                                     <div class="form-group">
                                         <label>Phone Number *</label>
