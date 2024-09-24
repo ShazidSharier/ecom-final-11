@@ -17,6 +17,7 @@ class User extends Authenticatable
     use HasProfilePhoto;
     use Notifiable;
     use TwoFactorAuthenticatable;
+    private static $user,$image, $imageName, $directory, $imageUrl, $extension;
 
     /**
      * The attributes that are mass assignable.
@@ -61,5 +62,33 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+    private static function getImageUrl($request)
+    {
+        self::$image        = $request->file('image');
+        self::$extension    = self::$image->extension();
+        self::$imageName    = rand().'.'.self::$extension;
+        self::$directory    = 'admin/image/user/';
+        self::$imageUrl     = self::$directory.self::$imageName;
+        self::$image->move(self::$directory, self::$imageName);
+        return self::$imageUrl;
+    }
+    public static function newUser($request)
+    {
+        if ($request->file('image'))
+        {
+            self::$imageUrl = self::getImageUrl($request);
+        }
+        else
+        {
+            self::$imageUrl = '';
+        }
+
+        self::$user = new User();
+        self::$user->name               = $request->name;
+        self::$user->email              = $request->email;
+        self::$user->password           = bcrypt($request->password);
+        self::$user->profile_photo_path = self::$imageUrl;
+        self::$user->save();
     }
 }

@@ -131,7 +131,7 @@
                                                     <tr>
                                                         <td class="title">
                                                             <img
-                                                                src="{{asset('/')}}website/assets/images/demos/demo3/header-logo.png"
+                                                                src="{{asset('/')}}admin/assets/images/demos/header-logo.png"
                                                                 style="width: 100%; max-width: 300px"
                                                             />
                                                         </td>

@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <title>Wolmart - Marketplace HTML5 Template</title>
+    <title>Ecommerce</title>
 
     <meta name="keywords" content="Marketplace ecommerce responsive HTML5 Template" />
     <meta name="description" content="Wolmart is powerful marketplace &amp; ecommerce responsive Html5 Template.">
@@ -86,9 +86,9 @@
                     </div>
                     <!-- End of Dropdown Menu -->
                     <span class="divider d-lg-show"></span>
-                    <a href="blog.html" class="d-lg-show">Blog</a>
-                    <a href="contact-us.html" class="d-lg-show">Contact Us</a>
-                    <a href="my-account.html" class="d-lg-show">My Account</a>
+                    <a href="" class="d-lg-show">Blog</a>
+                    <a href="" class="d-lg-show">Contact Us</a>
+                    <a href="" class="d-lg-show">My Account</a>
 
                     @if(Session::get('customerId'))
                         <a href="{{route('customer.logout')}}"><i class="w-icon-account"></i>Sign Out</a>
@@ -143,11 +143,11 @@
                             <a href="tel:#" class="phone-number font-weight-bolder ls-50">0(800)123-456</a>
                         </div>
                     </div>
-                    <a class="wishlist label-down link d-xs-show" href="wishlist.html">
+                    <a class="wishlist label-down link d-xs-show" href="">
                         <i class="w-icon-heart"></i>
                         <span class="wishlist-label d-lg-show">Wishlist</span>
                     </a>
-                    <a class="compare label-down link d-xs-show" href="compare.html">
+                    <a class="compare label-down link d-xs-show" href="">
                         <i class="w-icon-compare"></i>
                         <span class="compare-label d-lg-show">Compare</span>
                     </a>
@@ -196,7 +196,6 @@
                                 <label>Total:</label>
                                 <span class="price">Tk. {{$sum}}</span>
                             </div>
-
                             <div class="cart-action">
                                 <a href="{{route('cart.index')}}" class="btn btn-dark btn-outline btn-rounded">View Cart</a>
                                 <a href="{{route('checkout')}}" class="btn btn-primary  btn-rounded">Checkout</a>

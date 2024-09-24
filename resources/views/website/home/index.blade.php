@@ -22,11 +22,11 @@
                                 <p class="ls-25 slide-animate" data-animation-options="{
                                         'name': 'fadeInLeftShorter', 'duration': '.5s', 'delay': '.5s'
                                     }">Get Free Shipping on all orders over $99.00</p>
-                                <a href="shop-banner-sidebar.html"
-                                   class="btn btn-white btn-outline btn-rounded btn-icon-right slide-animate"
-                                   data-animation-options="{'name': 'fadeInUpShorter', 'duration': '.5s', 'delay': '.5s'}">
-                                    Shop Now<i class="w-icon-long-arrow-right"></i>
-                                </a>
+{{--                                <a href=""--}}
+{{--                                   class="btn btn-white btn-outline btn-rounded btn-icon-right slide-animate"--}}
+{{--                                   data-animation-options="{'name': 'fadeInUpShorter', 'duration': '.5s', 'delay': '.5s'}">--}}
+{{--                                    Shop Now<i class="w-icon-long-arrow-right"></i>--}}
+{{--                                </a>--}}
                             </div>
                         </div>
                         <!-- End Of Intro Slide 1 -->
@@ -43,10 +43,8 @@
                                         'name': 'fadeInDownShorter', 'duration': '.8s', 'delay': '.6s'
                                     }">Get Free Shipping on all orders over <strong class="text-primary">$99.00</strong>
                                 </p>
-                                <a href="shop-banner-sidebar.html"
-                                   class="btn btn-white btn-rounded btn-icon-right slide-animate"
-                                   data-animation-options="{'name': 'fadeInDownShorter', 'duration': '.8s', 'delay': '.8s'}">Shop
-                                    Now<i class="w-icon-long-arrow-right"></i></a>
+{{--                                <a href="" class="btn btn-white btn-rounded btn-icon-right slide-animate" data-animation-options="{'name': 'fadeInDownShorter', 'duration': '.8s', 'delay': '.8s'}">Shop--}}
+{{--                                    Now<i class="w-icon-long-arrow-right"></i></a>--}}
                             </div>
                         </div>
                         <!-- End of Intro Slide 3 -->
@@ -62,9 +60,9 @@
                                     <h3 class="banner-title text-white text-capitalize lh-1">Sports Sneakers</h3>
                                     <p class="text-white ls-25">Get Free Shipping on all orders over
                                         <strong>$99.00</strong></p>
-                                    <a href="shop-banner-sidebar.html"
-                                       class="btn btn-white btn-outline btn-rounded btn-icon-right">
-                                        Shop Now<i class="w-icon-long-arrow-right"></i></a>
+{{--                                    <a href=""--}}
+{{--                                       class="btn btn-white btn-outline btn-rounded btn-icon-right">--}}
+{{--                                        Shop Now<i class="w-icon-long-arrow-right"></i></a>--}}
                                 </div>
                             </div>
                         </div>
@@ -96,10 +94,10 @@
                                 <h5 class="banner-subtitle text-primary text-uppercase font-weight-bold ls-25">Top Products
                                 </h5>
                                 <h3 class="banner-title text-white font-weight-bold">Tranding NIKE<br>Sneaker</h3>
-                                <a href="shop-banner-sidebar.html"
-                                   class="btn btn-white btn-link btn-underline btn-icon-right">
-                                    Shop Now<i class="w-icon-long-arrow-right"></i>
-                                </a>
+{{--                                <a href=""--}}
+{{--                                   class="btn btn-white btn-link btn-underline btn-icon-right">--}}
+{{--                                    Shop Now<i class="w-icon-long-arrow-right"></i>--}}
+{{--                                </a>--}}
                             </div>
                         </figure>
                     </div>
@@ -112,10 +110,10 @@
                                 <h5 class="banner-subtitle text-primary text-uppercase font-weight-bold ls-25">New Arrivals
                                 </h5>
                                 <h3 class="banner-title ls-25">Vegan Friendly<br>Makeup</h3>
-                                <a href="shop-banner-sidebar.html"
-                                   class="btn btn-dark btn-link btn-underline btn-icon-right">
-                                    Shop Now<i class="w-icon-long-arrow-right"></i>
-                                </a>
+{{--                                <a href=""--}}
+{{--                                   class="btn btn-dark btn-link btn-underline btn-icon-right">--}}
+{{--                                    Shop Now<i class="w-icon-long-arrow-right"></i>--}}
+{{--                                </a>--}}
                             </div>
                         </figure>
                     </div>
@@ -128,10 +126,10 @@
                                 <h5 class="banner-subtitle text-primary text-uppercase font-weight-bold ls-25">Best Seller
                                 </h5>
                                 <h3 class="banner-title text-white font-weight-bold ls-15">Fashion Apple<br>Accessories</h3>
-                                <a href="shop-banner-sidebar.html"
-                                   class="btn btn-white btn-link btn-underline btn-icon-right">
-                                    Shop Now<i class="w-icon-long-arrow-right"></i>
-                                </a>
+{{--                                <a href=""--}}
+{{--                                   class="btn btn-white btn-link btn-underline btn-icon-right">--}}
+{{--                                    Shop Now<i class="w-icon-long-arrow-right"></i>--}}
+{{--                                </a>--}}
                             </div>
                         </figure>
                     </div>
@@ -196,7 +194,6 @@
                 </div>
             </div>
             <!-- End of Iocn Box Wrapper -->
-
             <h2 class="title text-left pt-1 mb-5 appear-animate">Most Popular Brand</h2>
             <div class="swiper">
                 <div class="swiper-container category-wrapper swiper-theme appear-animate" data-swiper-options="{
@@ -220,79 +217,79 @@
                     <div class="swiper-wrapper row cols-xl-6 cols-lg-5 cols-md-4 cols-sm-3 cols-2">
                         <div class="swiper-slide category category-ellipse">
                             <figure class="category-media">
-                                <a href="shop-banner-sidebar.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/categories/4.jpg" alt="Categroy" width="190"
                                          height="190" style="background-color: #5C92C0;" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="shop-banner-sidebar.html">Adidas</a>
+                                    <a href="">Adidas</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse">
                             <figure class="category-media">
-                                <a href="shop-banner-sidebar.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/categories/5.jpg" alt="Categroy" width="190"
                                          height="190" style="background-color: #9BC4CA;" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="shop-banner-sidebar.html">Nike</a>
+                                    <a href="">Nike</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse">
                             <figure class="category-media">
-                                <a href="shop-banner-sidebar.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/categories/6.jpg" alt="Categroy" width="190"
                                          height="190" style="background-color: #48555B;" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="shop-banner-sidebar.html">Samsung</a>
+                                    <a href="">Samsung</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse">
                             <figure class="category-media">
-                                <a href="shop-banner-sidebar.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/categories/7.jpg" alt="Categroy" width="190"
                                          height="190" style="background-color: #D4E5EF;" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="shop-banner-sidebar.html">Xbox</a>
+                                    <a href="">Xbox</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse">
                             <figure class="category-media">
-                                <a href="shop-banner-sidebar.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/categories/8.jpg" alt="Categroy" width="190"
                                          height="190" style="background-color: #6A7881;" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="shop-banner-sidebar.html">Xiaomi</a>
+                                    <a href="">Xiaomi</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse">
                             <figure class="category-media">
-                                <a href="shop-banner-sidebar.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/categories/9.jpg" alt="Categroy" width="190"
                                          height="190" style="background-color: #E4E4E4;" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="shop-banner-sidebar.html">Apple</a>
+                                    <a href="">Apple</a>
                                 </h4>
                             </div>
                         </div>
@@ -300,10 +297,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-
-
             <!-- End of Category Wrapper -->
-
             <div class="row deals-wrapper appear-animate mb-7">
                 <div class="col-lg-9 mb-4">
                     <div class="single-product h-100 br-sm">
@@ -383,21 +377,15 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="product-details scrollable">
-                                                    <h2 class="product-title mb-1"><a href="product-default.html">Red Cap Sound
-                                                            Marker</a></h2>
-
+                                                    <h2 class="product-title mb-1"><a href="">Red Cap Sound Marker</a></h2>
                                                     <hr class="product-divider">
-
-                                                    <div class="product-price"><ins class="new-price ls-50">$135.35 -
-                                                            $224.67</ins></div>
-
+                                                    <div class="product-price"><ins class="new-price ls-50">$135.35 - $224.67</ins></div>
                                                     <div class="product-countdown-container flex-wrap">
                                                         <label class="mr-2 text-default">Offer Ends In:</label>
-                                                        <div class="product-countdown countdown-compact"
-                                                             data-until="2022, 12, 31" data-compact="true">
-                                                            629 days, 11: 59: 52</div>
+                                                        <div class="product-countdown countdown-compact" data-until="2022, 12, 31" data-compact="true">
+                                                            629 days, 11: 59: 52
+                                                        </div>
                                                     </div>
-
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
                                                             <span class="ratings" style="width: 80%;"></span>
@@ -533,7 +521,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="product-details scrollable">
-                                                    <h2 class="product-title mb-1"><a href="product-default.html">Mini Wireless
+                                                    <h2 class="product-title mb-1"><a href="">Mini Wireless
                                                             Earphone</a></h2>
 
                                                     <hr class="product-divider">
@@ -552,7 +540,7 @@
                                                             <span class="ratings" style="width: 80%;"></span>
                                                             <span class="tooltiptext tooltip-top"></span>
                                                         </div>
-                                                        <a href="#product-tab-reviews" class="rating-reviews">(3 Reviews)</a>
+                                                        <a href="" class="rating-reviews">(3 Reviews)</a>
                                                     </div>
 
                                                     <div class="product-form product-variation-form product-size-swatch mb-3">
@@ -645,14 +633,14 @@
                                         <div class="swiper-slide product-widget-wrap">
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-1.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Fashionable Leather Satchel</a>
+                                                        <a href="">Fashionable Leather Satchel</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -667,14 +655,14 @@
                                             </div>
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-2.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Mini Wireless Earphone</a>
+                                                        <a href="">Mini Wireless Earphone</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -689,14 +677,14 @@
                                             </div>
                                             <div class="product product-widget">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-3.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Women's Comforter</a>
+                                                        <a href="">Women's Comforter</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -713,14 +701,14 @@
                                         <div class="swiper-slide product-widget-wrap">
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-4.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Apple Fashion IPhone</a>
+                                                        <a href="">Apple Fashion IPhone</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -735,14 +723,14 @@
                                             </div>
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-5.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">T-Shirt</a>
+                                                        <a href="">T-Shirt</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -758,14 +746,14 @@
                                             </div>
                                             <div class="product product-widget">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-6.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Tea Cup</a>
+                                                        <a href="">Tea Cup</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -782,14 +770,14 @@
                                         <div class="swiper-slide product-widget-wrap">
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-7.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Soft Sound Marker</a>
+                                                        <a href="">Soft Sound Marker</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -804,14 +792,14 @@
                                             </div>
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-8.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Smart Watch</a>
+                                                        <a href="">Smart Watch</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -827,14 +815,14 @@
                                             </div>
                                             <div class="product product-widget">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-9.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Rotate Crusher</a>
+                                                        <a href="">Rotate Crusher</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -872,7 +860,7 @@
                             <h3 class="banner-title font-weight-bold text-uppercase ls-25">
                                 Wonderful Long Weekend<br><strong class="text-capitalize">Women's Style</strong>
                             </h3>
-                            <a href="shop-banner-sidebar.html" class="btn btn-dark btn-outline btn-rounded">Shop Now</a>
+{{--                            <a href="" class="btn btn-dark btn-outline btn-rounded">Shop Now</a>--}}
                         </div>
                     </div>
                     <div class="row mt-4">
@@ -885,10 +873,8 @@
                                             <img src="{{asset($product->image)}}" alt="Product" style="height: 200px;width: 250px" />
                                         </a>
                                         <div class="product-action-vertical">
-                                            <a href="#" class="btn-product-icon btn-wishlist w-icon-heart"
-                                               title="Add to wishlist"></a>
-                                            <a href="#" class="btn-product-icon btn-compare w-icon-compare"
-                                               title="Add to Compare"></a>
+                                            <a href="#" class="btn-product-icon btn-wishlist w-icon-heart" title="Add to wishlist"></a>
+                                            <a href="#" class="btn-product-icon btn-compare w-icon-compare" title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
                                             <a href="{{route('product.details',['id' => $product->id,'slug'=> $product->slug])}}" class="btn-product btn-quickview" title="Quick View">Quick View</a>
@@ -903,15 +889,14 @@
                                                 <span class="ratings" style="width: 100%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
+                                            <a href="" class="rating-reviews">(3 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">TK. {{$product->selling_price}}</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add To Cart</a>
+                                                <a href="{{route('cart.index')}}" class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add To Cart</a>
                                             </div>
                                         </div>
                                     </div>
@@ -938,8 +923,8 @@
                             <h3 class="banner-title font-weight-bold text-uppercase text-white ls-25">
                                 Wonderful Long Weekend<br><strong class="text-capitalize">Apple Drones</strong>
                             </h3>
-                            <a href="shop-banner-sidebar.html" class="btn btn-white btn-outline btn-rounded">Shop
-                                Now</a>
+{{--                            <a href="" class="btn btn-white btn-outline btn-rounded">Shop--}}
+{{--                                Now</a>--}}
                         </div>
                     </div>
                     <div class="swiper-container swiper-theme mt-4" data-swiper-options="{
@@ -958,7 +943,7 @@
                             <div class="swiper-slide product-wrap">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a href="">
                                             <img src="{{asset('/')}}website/assets/images/demos/demo3/products/4-1.jpg" alt="Product"
                                                  width="330" height="338" />
                                         </a>
@@ -969,28 +954,28 @@
                                                title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
-                                                View</a>
+{{--                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick--}}
+{{--                                                View</a>--}}
                                         </div>
                                     </figure>
                                     <div class="product-details">
-                                        <h4 class="product-name"><a href="product-default.html">Men's Black Watch</a>
+                                        <h4 class="product-name"><a href="">Men's Black Watch</a>
                                         </h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
                                                 <span class="ratings" style="width: 100%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
+                                            <a href="" class="rating-reviews">(3 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">$79.80</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add
-                                                    To Cart</a>
+{{--                                                <a href="#"--}}
+{{--                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add--}}
+{{--                                                    To Cart</a>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -1000,7 +985,7 @@
                             <div class="swiper-slide product-wrap">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a href="">
                                             <img src="{{asset('/')}}website/assets/images/demos/demo3/products/4-2.jpg" alt="Product"
                                                  width="330" height="338" />
                                         </a>
@@ -1011,27 +996,27 @@
                                                title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
-                                                View</a>
+{{--                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick--}}
+{{--                                                View</a>--}}
                                         </div>
                                     </figure>
                                     <div class="product-details">
-                                        <h4 class="product-name"><a href="product-default.html">Bright Light</a></h4>
+                                        <h4 class="product-name"><a href="">Bright Light</a></h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
                                                 <span class="ratings" style="width: 100%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
+                                            <a href="" class="rating-reviews">(3 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">$12.99</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add
-                                                    To Cart</a>
+{{--                                                <a href="#"--}}
+{{--                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add--}}
+{{--                                                    To Cart</a>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -1041,7 +1026,7 @@
                             <div class="swiper-slide product-wrap">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a href="">
                                             <img src="{{asset('/')}}website/assets/images/demos/demo3/products/4-3.jpg" alt="Product"
                                                  width="330" height="338" />
                                         </a>
@@ -1052,28 +1037,28 @@
                                                title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
-                                                View</a>
+{{--                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick--}}
+{{--                                                View</a>--}}
                                         </div>
                                     </figure>
                                     <div class="product-details">
-                                        <h4 class="product-name"><a href="product-default.html">Magenetic Charge Box</a>
+                                        <h4 class="product-name"><a href="">Magenetic Charge Box</a>
                                         </h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
                                                 <span class="ratings" style="width: 100%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
+                                            <a href="" class="rating-reviews">(3 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">$110.00</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add
-                                                    To Cart</a>
+{{--                                                <a href="#"--}}
+{{--                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add--}}
+{{--                                                    To Cart</a>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -1083,7 +1068,7 @@
                             <div class="swiper-slide product-wrap">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a href="">
                                             <img src="{{asset('/')}}website/assets/images/demos/demo3/products/4-4.jpg" alt="Product"
                                                  width="330" height="338" />
                                         </a>
@@ -1094,28 +1079,28 @@
                                                title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
-                                                View</a>
+{{--                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick--}}
+{{--                                                View</a>--}}
                                         </div>
                                     </figure>
                                     <div class="product-details">
-                                        <h4 class="product-name"><a href="product-default.html">Bluetooth Music
+                                        <h4 class="product-name"><a href="">Bluetooth Music
                                                 Recorder</a></h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
                                                 <span class="ratings" style="width: 100%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
+                                            <a href="" class="rating-reviews">(3 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">$49.00</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add
-                                                    To Cart</a>
+{{--                                                <a href="#"--}}
+{{--                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add--}}
+{{--                                                    To Cart</a>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -1142,8 +1127,8 @@
                             <h3 class="banner-title font-weight-bold text-uppercase ls-25">
                                 Wonderful Long Weekend<br><strong class="text-normal">LifeStyle Collection</strong>
                             </h3>
-                            <a href="shop-banner-sidebar.html" class="btn btn-dark btn-outline btn-rounded">Shop
-                                Now</a>
+{{--                            <a href="" class="btn btn-dark btn-outline btn-rounded">Shop--}}
+{{--                                Now</a>--}}
                         </div>
                     </div>
                     <div class="swiper-container swiper-theme mt-4" data-swiper-options="{
@@ -1162,7 +1147,7 @@
                             <div class="swiper-slide product-wrap">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a href="">
                                             <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-9.jpg" alt="Product"
                                                  width="330" height="338" />
                                         </a>
@@ -1173,27 +1158,27 @@
                                                title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
-                                                View</a>
+{{--                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick--}}
+{{--                                                View</a>--}}
                                         </div>
                                     </figure>
                                     <div class="product-details">
-                                        <h4 class="product-name"><a href="product-default.html">Rotate Crusher</a></h4>
+                                        <h4 class="product-name"><a href="">Rotate Crusher</a></h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
                                                 <span class="ratings" style="width: 60%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(3 reviews)</a>
+                                            <a href="" class="rating-reviews">(3 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">$65.00</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add
-                                                    To Cart</a>
+{{--                                                <a href="#"--}}
+{{--                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add--}}
+{{--                                                    To Cart</a>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -1203,7 +1188,7 @@
                             <div class="swiper-slide product-wrap">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a href="">
                                             <img src="{{asset('/')}}website/assets/images/demos/demo3/products/6-1.jpg" alt="Product"
                                                  width="330" height="338" />
                                         </a>
@@ -1214,28 +1199,28 @@
                                                title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
-                                                View</a>
+{{--                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick--}}
+{{--                                                View</a>--}}
                                         </div>
                                     </figure>
                                     <div class="product-details">
-                                        <h4 class="product-name"><a href="product-default.html">Colorful Flavoring
+                                        <h4 class="product-name"><a href="">Colorful Flavoring
                                                 Box</a></h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
                                                 <span class="ratings" style="width: 100%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(6 reviews)</a>
+                                            <a href="" class="rating-reviews">(6 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">$25.00</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add
-                                                    To Cart</a>
+{{--                                                <a href="#"--}}
+{{--                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add--}}
+{{--                                                    To Cart</a>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -1245,7 +1230,7 @@
                             <div class="swiper-slide product-wrap">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a href="">
                                             <img src="{{asset('/')}}website/assets/images/demos/demo3/products/6-2.jpg" alt="Product"
                                                  width="330" height="338" />
                                         </a>
@@ -1256,27 +1241,27 @@
                                                title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
-                                                View</a>
+{{--                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick--}}
+{{--                                                View</a>--}}
                                         </div>
                                     </figure>
                                     <div class="product-details">
-                                        <h4 class="product-name"><a href="product-default.html">Rice Cooker</a></h4>
+                                        <h4 class="product-name"><a href="">Rice Cooker</a></h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
                                                 <span class="ratings" style="width: 100%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(5 reviews)</a>
+                                            <a href="" class="rating-reviews">(5 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">$78.88</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add
-                                                    To Cart</a>
+{{--                                                <a href="#"--}}
+{{--                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add--}}
+{{--                                                    To Cart</a>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -1286,7 +1271,7 @@
                             <div class="swiper-slide product-wrap">
                                 <div class="product product-simple text-center">
                                     <figure class="product-media">
-                                        <a href="product-default.html">
+                                        <a href="">
                                             <img src="{{asset('/')}}website/assets/images/demos/demo3/products/6-3.jpg" alt="Product"
                                                  width="330" height="338" />
                                         </a>
@@ -1297,27 +1282,27 @@
                                                title="Add to Compare"></a>
                                         </div>
                                         <div class="product-action">
-                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick
-                                                View</a>
+{{--                                            <a href="#" class="btn-product btn-quickview" title="Quick View">Quick--}}
+{{--                                                View</a>--}}
                                         </div>
                                     </figure>
                                     <div class="product-details">
-                                        <h4 class="product-name"><a href="product-default.html">Black Crusher</a></h4>
+                                        <h4 class="product-name"><a href="">Black Crusher</a></h4>
                                         <div class="ratings-container">
                                             <div class="ratings-full">
                                                 <span class="ratings" style="width: 100%;"></span>
                                                 <span class="tooltiptext tooltip-top"></span>
                                             </div>
-                                            <a href="product-default.html" class="rating-reviews">(6 reviews)</a>
+                                            <a href="" class="rating-reviews">(6 reviews)</a>
                                         </div>
                                         <div class="product-pa-wrapper">
                                             <div class="product-price">
                                                 <ins class="new-price">$79.00</ins>
                                             </div>
                                             <div class="product-action">
-                                                <a href="#"
-                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add
-                                                    To Cart</a>
+{{--                                                <a href="#"--}}
+{{--                                                   class="btn-cart btn-product btn btn-icon-right btn-link btn-underline">Add--}}
+{{--                                                    To Cart</a>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -1348,14 +1333,14 @@
                                         <div class="swiper-slide product-widget-wrap">
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/7-1.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Plastic Cup</a>
+                                                        <a href="">Plastic Cup</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -1370,14 +1355,14 @@
                                             </div>
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/7-2.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Morden Cooker</a>
+                                                        <a href="">Morden Cooker</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -1392,14 +1377,14 @@
                                             </div>
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-6.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Tea Cup</a>
+                                                        <a href="">Tea Cup</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -1414,14 +1399,14 @@
                                             </div>
                                             <div class="product product-widget">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/7-3.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Coffee Maker</a>
+                                                        <a href="">Coffee Maker</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -1438,14 +1423,14 @@
                                         <div class="swiper-slide product-widget-wrap">
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/6-3.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Black Cursher</a>
+                                                        <a href="">Black Cursher</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -1460,14 +1445,14 @@
                                             </div>
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/6-2.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Rice Cooker</a>
+                                                        <a href="">Rice Cooker</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -1482,14 +1467,14 @@
                                             </div>
                                             <div class="product product-widget bb-no">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/6-1.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
                                                     <h4 class="product-name">
-                                                        <a href="product-default.html">Colorful Flavoring Box</a>
+                                                        <a href="">Colorful Flavoring Box</a>
                                                     </h4>
                                                     <div class="ratings-container">
                                                         <div class="ratings-full">
@@ -1504,13 +1489,13 @@
                                             </div>
                                             <div class="product product-widget">
                                                 <figure class="product-media">
-                                                    <a href="product-default.html">
+                                                    <a href="">
                                                         <img src="{{asset('/')}}website/assets/images/demos/demo3/products/1-9.jpg" alt="Product"
                                                              width="105" height="118" />
                                                     </a>
                                                 </figure>
                                                 <div class="product-details">
-                                                    <h4 class="product-name"><a href="product-default.html">Rotate
+                                                    <h4 class="product-name"><a href="">Rotate
                                                             Crusher</a>
                                                     </h4>
                                                     <div class="ratings-container">
@@ -1542,7 +1527,7 @@
             <div class="container">
                 <div class="title-link-wrapper mb-2 appear-animate">
                     <h2 class="title">From Our Blog</h2>
-                    <a href="blog-listing.html" class="font-weight-bold font-size-normal ls-25">View All
+                    <a href="" class="font-weight-bold font-size-normal ls-25">View All
                         Articles</a>
                 </div>
                 <div class="swiper-container swiper-theme post-wrapper mb-5 appear-animate" data-swiper-options="{
@@ -1563,7 +1548,7 @@
                     <div class="swiper-wrapper row cols-lg-4 cols-md-3 cols-sm-2 cols-1">
                         <div class="swiper-slide post text-center overlay-zoom">
                             <figure class="post-media br-sm">
-                                <a href="post-single.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/blog/1.jpg" alt="Post" width="590" height="380"
                                          style="background-color: #C4C1BC;" />
                                 </a>
@@ -1573,16 +1558,16 @@
                                     by <a href="#" class="post-author">John Doe</a>
                                     - <a href="#" class="post-date mr-0">03.05.2021</a>
                                 </div>
-                                <h4 class="post-title"><a href="post-single.html">New found the women’s shirt for summer
+                                <h4 class="post-title"><a href="">New found the women’s shirt for summer
                                         season</a></h4>
-                                <a href="post-single.html"
-                                   class="btn btn-link btn-dark btn-underline font-weight-normal">Read More<i
-                                        class="w-icon-long-arrow-right"></i></a>
+{{--                                <a href=""--}}
+{{--                                   class="btn btn-link btn-dark btn-underline font-weight-normal">Read More<i--}}
+{{--                                        class="w-icon-long-arrow-right"></i></a>--}}
                             </div>
                         </div>
                         <div class="swiper-slide post text-center overlay-zoom">
                             <figure class="post-media br-sm">
-                                <a href="post-single.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/blog/2.jpg" alt="Post" width="590" height="380"
                                          style="background-color: #F3D5BA;" />
                                 </a>
@@ -1592,16 +1577,16 @@
                                     by <a href="#" class="post-author">John Doe</a>
                                     - <a href="#" class="post-date mr-0">03.05.2021</a>
                                 </div>
-                                <h4 class="post-title"><a href="post-single.html">Fashion tells about who you are from
+                                <h4 class="post-title"><a href="">Fashion tells about who you are from
                                         external point</a></h4>
-                                <a href="post-single.html"
-                                   class="btn btn-link btn-dark btn-underline font-weight-normal">Read More<i
-                                        class="w-icon-long-arrow-right"></i></a>
+{{--                                <a href=""--}}
+{{--                                   class="btn btn-link btn-dark btn-underline font-weight-normal">Read More<i--}}
+{{--                                        class="w-icon-long-arrow-right"></i></a>--}}
                             </div>
                         </div>
                         <div class="swiper-slide post text-center overlay-zoom">
                             <figure class="post-media br-sm">
-                                <a href="post-single.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/blog/3.jpg" alt="Post" width="590" height="380"
                                          style="background-color: #999999;" />
                                 </a>
@@ -1611,16 +1596,16 @@
                                     by <a href="#" class="post-author">John Doe</a>
                                     - <a href="#" class="post-date mr-0">03.05.2021</a>
                                 </div>
-                                <h4 class="post-title"><a href="post-single.html">We want to be different and fashion
+                                <h4 class="post-title"><a href="">We want to be different and fashion
                                         gives to me that outlet</a></h4>
-                                <a href="post-single.html"
-                                   class="btn btn-link btn-dark btn-underline font-weight-normal">Read More<i
-                                        class="w-icon-long-arrow-right"></i></a>
+{{--                                <a href=""--}}
+{{--                                   class="btn btn-link btn-dark btn-underline font-weight-normal">Read More<i--}}
+{{--                                        class="w-icon-long-arrow-right"></i></a>--}}
                             </div>
                         </div>
                         <div class="swiper-slide post text-center overlay-zoom">
                             <figure class="post-media br-sm">
-                                <a href="post-single.html">
+                                <a href="">
                                     <img src="{{asset('/')}}website/assets/images/demos/demo3/blog/4.jpg" alt="Post" width="590" height="380"
                                          style="background-color: #211715;" />
                                 </a>
@@ -1630,10 +1615,10 @@
                                     by <a href="#" class="post-author">John Doe</a>
                                     - <a href="#" class="post-date mr-0">03.05.2021</a>
                                 </div>
-                                <h4 class="post-title"><a href="post-single.html">Cras ornare tristique elit</a></h4>
-                                <a href="post-single.html"
-                                   class="btn btn-link btn-dark btn-underline font-weight-normal">Read More<i
-                                        class="w-icon-long-arrow-right"></i></a>
+                                <h4 class="post-title"><a href="">Cras ornare tristique elit</a></h4>
+{{--                                <a href=""--}}
+{{--                                   class="btn btn-link btn-dark btn-underline font-weight-normal">Read More<i--}}
+{{--                                        class="w-icon-long-arrow-right"></i></a>--}}
                             </div>
                         </div>
                     </div>

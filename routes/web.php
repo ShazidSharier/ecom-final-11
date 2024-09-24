@@ -17,6 +17,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\CourierController;
 use App\Http\Controllers\SslCommerzPaymentController;
 use App\Http\Controllers\CustomerDashboardController;
+use App\Http\Controllers\UserController;
 
 
 Route::get('/',[WolmartController::class,'index'])->name('home');
@@ -24,7 +25,7 @@ Route::get('/shop{id}',[WolmartController::class,'product'])->name('shop');
 Route::get('/sub-category-shop/{id}',[WolmartController::class,'subCategoryProduct'])->name('sub-category-shop');
 Route::get('/product/details/{id}/{slug}',[WolmartController::class,'productDetails'])->name('product.details');
 
-Route::resource('cart', CartController::class );
+Route::resource('cart', CartController::class);
 Route::get('/checkout',[CheckoutController::class,'checkout'])->name('checkout');
 Route::post('/new-order',[CheckoutController::class,'newOrder'])->name('new-order');
 Route::get('/complete-order',[CheckoutController::class,'completeOrder'])->name('complete-order');
@@ -77,5 +78,6 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
     Route::resource('size', SizeController::class );
     Route::resource('product', ProductController::class );
     Route::resource('courier', CourierController::class );
+    Route::resource('user', UserController::class );
     Route::get('/get-sub-category-by-category',[ProductController::class,'getSubCategory'])->name('get-sub-category-by-category');
 });
